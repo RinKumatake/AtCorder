@@ -1,4 +1,4 @@
-def i_miss_you(s):
+def i_miss_you(s:str) ->str:
     """渡された文字列を全て"x"に置き換えて返す
     :param s: 文字列
     :return: "x"に置き換えた文字列
