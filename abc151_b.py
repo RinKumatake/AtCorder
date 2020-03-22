@@ -19,3 +19,8 @@ def achieve_the_goal(n:int, k:int, m:int, a: list) -> str:
 n, k, m = map(int, input().split())
 a = list(map(int, input().split()))
 print(achieve_the_goal(n, k, m, a))
+
+if __name__ == "__main__":
+    assert achieve_the_goal(5, 10, 7, [8, 10, 3, 6]) == 8, "WA"
+    assert achieve_the_goal(4,100, 60, [100, 100, 100]) == 0, "WA"
+    assert achieve_the_goal(4, 100, 60, [0, 0, 0]) == '-1', "WA"
