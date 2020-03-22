@@ -1,4 +1,4 @@
-def greedy_takahashi(a, b, k):    
+def greedy_takahashi(a:int, b:int, k:int) -> str:    
     if a >= k:
         a = a - k 
     elif a + b >= k:    
