@@ -1,5 +1,4 @@
 #https://atcoder.jp/contests/abc083/tasks/abc083_b
-#1からnまでの各桁の和を求める関数
 def sum_s(s:int) -> int:
     """1からnまでの各桁の和を求める
     :param s: 数字
