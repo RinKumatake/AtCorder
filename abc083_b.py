@@ -1,6 +1,6 @@
 #https://atcoder.jp/contests/abc083/tasks/abc083_b
 def sum_s(s:int) -> int:
-    """1からnまでの各桁の和を求める
+    """整数sの各桁の和を求める
     :param s: 数字
     :return: sの各桁の合計
     """
