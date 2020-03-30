@@ -1,3 +1,4 @@
+# https://atcoder.jp/contests/abc109/tasks/abc109_b
 def has_duplicates(words:list) -> bool:
     """リストの中に重複している要素がないかチェック
     :param words: 単語のリスト
