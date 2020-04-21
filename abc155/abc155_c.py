@@ -1,6 +1,5 @@
 # https://atcoder.jp/contests/abc155/tasks/abc155_c
 import collections
-import itertools
 
 n = int(input())
 word = [input() for i in range(n)]
