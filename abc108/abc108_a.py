@@ -12,3 +12,6 @@ for i in even:
 print(len(ans_lst))
 
 
+#解答:1からKまでに偶数はk/2個で奇数はk/2個だからそれらを掛け合わせたらペアができる
+K = int(input())
+print(k//2 * ((k+1)//2))
